@@ -1,0 +1,359 @@
+/*////////////TOPBAR//////////////*/
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover{
+	/*border-bottom: 2px #fff solid;*/
+  text-decoration: underline;
+  padding-top: 15px;
+  padding-bottom: 0px;
+  background-color: rgba(255, 255, 255, 0);
+}
+.navbar-inverse .navbar-nav>li>a{
+	color: #fff;
+}
+.navbar-inverse{
+	background-color: rgba(255, 255, 255, 0);
+	border: none;
+}
+.navbar-inverse .navbar-toggle {
+  border: none;
+ }
+ .navbar-inner {
+    background: transparent;
+}
+/*////////////Principal*/
+body{
+	background-color: #fffde7;
+	font-family: 'Roboto', sans-serif;
+}
+a{
+  color: #42a5f5;
+}
+a p{
+	text-decoration: none;
+}
+h2{
+	font-family: 'Playfair Display', serif;
+}
+ol,ul{
+	padding-left: 20px;
+  margin: 0;
+  list-style-type: none;
+}
+.bold{
+	font-weight: bold;
+}
+.italic{
+  font-style: italic;
+}
+/*/////////////HEADER//////////////*/
+.title-header{
+	 margin: 45px 0 0 15px;
+  	 font-size: 50px;
+  	 color: #fff;
+}
+#bg-choix{
+  background-color: #8e24aa;
+}
+#img-header-choix{
+  background: url('../img/header/licences_choix.svg') no-repeat center top;
+  background-size: cover;
+	background-attachment: relative;
+	width: 100%;
+	min-height: 741px;
+	
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+}
+#img-header-choix-mobile{
+  background: url('../img/header/licences_choix_mobile.svg') no-repeat center top;
+  background-size: cover;
+  background-attachment: relative;
+  min-height: 640px;
+  
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+}
+.bg-hp{
+  background-color: #2e7d32;
+}
+#img-header-hp{
+  background: url('../img/hp/choisir_une licence_hp.svg') no-repeat center top;
+  background-size: cover;
+	background-attachment: relative;
+  width: 100%;
+	min-height: 741px;
+	
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+}
+#img-header-hp-mobile{
+	background: url('../img/hp/hp_mobile.svg') no-repeat center top;
+  background-size: cover;
+	background-attachment: relative;
+	min-height: 640px;
+	
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+}
+#bg-mit{
+  background-color: #4EC2F6;
+}
+#img-header-mit{
+  background: url('../img/header/licence_mit.svg') no-repeat center top;
+  background-size: cover;
+  background-attachment: relative;
+  width: 100%;
+  min-height: 741px;
+  
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+}
+#img-header-mit-mobile{
+  background: url('../img/header/licence_mit_mobile.svg') no-repeat center top;
+  background-size: cover;
+  background-attachment: relative;
+  min-height: 640px;
+  
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+}
+#bg-apache{
+  background-color: #D71A5F;
+}
+#img-header-apache{
+  background: url('../img/header/licence_apache.svg') no-repeat center top;
+  background-size: cover;
+  background-attachment: relative;
+  width: 100%;
+  min-height: 741px;
+  
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+}
+#img-header-apache-mobile{
+  background: url('../img/header/licence_apache_mobile.svg') no-repeat center top;
+  background-size: cover;
+  background-attachment: relative;
+  min-height: 640px;
+  
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+}
+#bg-gpl{
+  background-color: #26C6DA;
+}
+#img-header-gpl{
+  background: url('../img/header/licence_gpl.svg') no-repeat center top;
+  background-size: cover;
+  background-attachment: relative;
+  width: 100%;
+  min-height: 741px;
+  
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+}
+#img-header-gpl-mobile{
+  background: url('../img/header/licence_gpl_mobile.svg') no-repeat center top;
+  background-size: cover;
+  background-attachment: relative;
+  min-height: 640px;
+  
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+}
+#bg-creative{
+  background-color: #3D2622;
+}
+.creative{
+  color: #5D4037;
+}
+#img-header-creative{
+  background: url('../img/header/licence_creative.svg') no-repeat center top;
+  background-size: cover;
+  background-attachment: relative;
+  width: 100%;
+  min-height: 741px;
+  
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+}
+#img-header-creative-mobile{
+  background: url('../img/header/licence_creative_mobile.svg') no-repeat center top;
+  background-size: cover;
+  background-attachment: relative;
+  min-height: 640px;
+  
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+}
+#bg-no{
+  background-color: #B71C1C;
+}
+#img-header-no{
+  background: url('../img/header/licence_no.svg') no-repeat center top;
+  background-size: cover;
+  background-attachment: relative;
+  width: 100%;
+  min-height: 741px;
+  
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+}
+#img-header-no-mobile{
+  background: url('../img/header/licence_no_mobile.svg') no-repeat center top;
+  background-attachment: relative;
+  width: 100%;
+  min-height: 640px;
+  
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+}
+.header-space{
+  margin-top: -20px;
+}
+/*//////////particulier//////////*/
+.btn-hp{
+	display: inline-block;
+	width: 100%;
+	background-color: #2e7d32;
+  border-radius: 0;
+ 	color: #fff;
+  padding: 10px 0;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.3);
+}
+.btn-hp > paper-ripple {
+  border-radius: 2px;
+  overflow: hidden;
+}
+.btn-hp a:hover{
+	text-decoration: none;
+}
+.btn-copie{
+  font-size: 12px;
+  margin-top: 15px;
+  padding: 10px 0;
+  display: inline-block;
+  width: 100%;
+  background-color: #42a5f5;
+  border-radius: 0;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.3);
+}
+.btn-copie a{
+  color:#fff;
+}
+.h2-space{
+  margin: 35px 0 25px 0;
+}
+.h3-color{
+  color: #8e24aa;
+}
+.application{
+  font-size: 15px;
+}
+#puce-requis{
+  list-style-type: disc;
+  list-style-image: url(../img/btn_requis.png);
+}
+#puce-permis{
+  list-style-type: disc;
+  list-style-image: url(../img/btn_permis.png);
+}
+#puce-interdit{
+  list-style-type: disc;
+  list-style-image: url(../img/btn_interdit.png);
+}
+#text-license{
+  font-family: 'Inconsolata', 'roboto';
+  height: auto;
+  background-color: #eeeeee;
+  border: 1px solid #bdbdbd;
+}
+.puce-space{
+    margin: 10px 0 0 0;
+}
+.space-other-licence{
+  margin-top: 20px;
+}
+.blue{
+  color: #42a5f5;
+}
+/*//////////FOOTER///////////*/
+.line{
+	border-top: 1px solid rgba(0, 0, 0, 0.12);
+}
+footer {
+	width: 70%;
+	margin-top: 50px;
+}
+.pfooter p{
+	font-size: 12px;
+	margin-top: 10px;
+}
+footer a{
+	color: #2e7d32;
+}
+
+}
+@media (max-width: 767px){
+	.title-header{
+	 	margin: 0px;
+  	font-size: 40px;
+  }
+  .block-space{
+    margin-bottom: 35px;
+  }
+}
+@media (max-width: 320px){
+  .btn-hp-long{
+  	font-size: 13px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1000px){
+	.btn-hp{
+  	height: 50px;
+  }
+  .btn-hp-long{
+  	line-height: 15px;
+  }
+  .btn-hp-normal{
+  	line-height: 25px;
+  }
+}
+@media (min-width: 1200px){
+	.btn-hp{
+    line-height: 20px;
+  	max-width: 300px;
+  }
+}
+@media (min-width: 768px){
+  .no-padding{
+    padding: 0;
+  }
+}
